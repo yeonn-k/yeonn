@@ -1,0 +1,452 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    
+}
+
+img{
+    margin: 0;
+    padding: 0;
+}
+/* --------------------main------------------------------------------ */
+
+.m_wrap{
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.m_logo h1{
+    font-family: 'Faustina', serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(192, 40, 40);
+}
+
+.m_click{
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(192, 40, 40);;
+}
+
+.m_line{
+    width: 200px;
+    height: 2px;
+    background-color: rgb(192, 40, 40);
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+
+
+/* ------------------logo/nav------------------------------------ */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    width: 2000px;
+    height: 50px;
+    overflow: hidden;
+    background-color: rgb(192, 40, 40);
+}
+.logo>a{
+    font-family: 'Faustina', serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 45px;
+}
+
+.line{
+    width: 110px;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 5px; 
+}
+
+nav>ul>li>a{
+    font-family: 'Noto Sans KR', sans-serif;
+    color:  rgb(192, 40, 40);
+    font-weight: 500;
+    margin: 0 30px;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav>ul>li>a{
+    display: block;
+    padding-bottom: 3px;
+}
+
+nav>ul>li>a:hover{
+    border-bottom: 2px solid rgb(192, 40, 40);
+}
+
+section{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#black{
+    float: left;
+}
+
+.profiletext{
+
+    float: right;
+    margin-top: 150px;
+}
+
+
+/* -----------------------proflie---------------------------------- */
+
+.wrap{
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrap>#black{
+    width: 500px;
+    height: 500px;
+    border-radius: 150px;
+    float: left;
+    margin-right: 60px;
+}
+
+.wrap h1{
+    margin-top: 50px;
+    color: rgba(192, 40, 40, 0.521);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p{
+    color: rgba(192, 40, 40, 0.521);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+/* ----------------what_i_like ---------------------------------*/
+table{
+    display: block;
+}
+
+td{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: rgb(192, 40, 40);
+    overflow: hidden;
+}
+
+td img{
+    width: 50px;
+}
+
+.letters{
+    opacity: 0;
+    width: 300px;
+}
+
+.PPAW:hover~.paw{
+    opacity: 1;
+    transition: 1s;
+}
+
+.PMUSIC:hover~.music{
+    opacity: 1;
+    transition: 1s;
+}
+.PCAR:hover~.car{
+    opacity: 1;
+    transition: 1s;
+}
+.PGAME:hover~.game{
+    opacity: 1;
+    transition: 1s;
+}
+
+.PBEACH:hover~.beach{
+    opacity: 1;
+    transition: 1s;
+}
+
+.PDRAMA:hover~.drama{
+    opacity: 1;
+    transition: 1s;
+}
+
+.pinkbox{
+    width: 280px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgba(192, 40, 40, 0.164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------------experiences----------------------------------- */
+
+.experiences{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+   
+}
+
+.experiences>.art,.patent,.model,.landscape,.craft{
+    width: 280px;
+    height: 350px;
+    background-color: rgba(192, 40, 40, 0.116);
+    margin: 10px;
+    text-align: center;
+    padding-top: 30px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.line{
+    background-color: rgb(192, 40, 40);
+    width: 100px;
+    height: 3px;
+    margin-top: 70px;
+}
+
+
+.experiences>div>img{
+    width: 50px;
+}
+
+.art{ position: relative;}
+.art img{
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    top: 30px;
+}
+.model{ position: relative;}
+.model img{
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    top: 30px;
+}
+.patent{ position: relative;}
+.patent img{
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    top: 30px;
+}
+.landscape{ position: relative;}
+.landscape img{
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    top: 30px;
+}
+.craft{ position: relative;}
+.craft img{
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    top: 30px;
+}
+
+.experiences>div>.ptitle{
+    margin-top: 70px;
+}
+
+.line{
+    opacity: 0;
+}
+.wrap:hover .line{
+    opacity: 1;
+}
+
+.L1,.art>p,.model>p,.patent>p,.landscape>p,.craft>p{
+    transition: 0.5s;
+}
+.L2{
+    transition: 0.9s;
+}    
+.L3{
+    transition: 1.3s;
+}
+.L4{
+    transition: 1.7s;
+}
+
+.experiences p{
+    opacity: 0;
+}
+
+.art:hover p{
+    opacity: 1;
+}
+.model:hover p{
+    opacity: 1;
+}
+.patent:hover p{
+    opacity: 1;
+}
+.landscape:hover p{
+    opacity: 1;
+}
+.craft:hover p{
+    opacity: 1;
+}
+
+
+/* ----------------------contact-------------------------------- */
+
+.upper,.lower{
+    display: flex;
+    justify-content: center;
+}
+
+.upper>a>img,.lower>a>img{
+    width: 60px;
+    margin: 20px;   
+}
+.mail{
+    display: flex;
+    align-items: center;
+}
+
+.contacttext{
+    color: rgba(192, 40, 40, 0.6);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.contacttext>img{
+    width: 20px;
+    opacity: 0.6;
+}
+
+/* ------------------------living with---------------------------- */
+
+.jigu{
+    width: 1520px;
+    height: 605px;
+    margin: 0 auto;
+}
+
+.left_jigu{
+    width: 560px;
+    height: 605px;
+    overflow: hidden;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+video{
+    width: 560px;
+    height: 560px;
+    border-radius: 10%;
+}
+
+.imgbox{
+    width: 300px;
+    height: 300px;
+    float: right;  
+    position: relative;
+}
+
+.right_upper_jigu>.imgbox{
+    margin: 0 10 10 0;
+}
+
+.right_lower_jigu>.imgbox{
+    margin: 0 10 0 0;
+}
+
+.imgbox>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+}
+
+/* [class*='num']: class 명에 num이 들어가는 것 모두 선택 */
+[class*='num']{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+    opacity: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.num1:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.num2:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.num3:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.num4:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.num5:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.num6:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
